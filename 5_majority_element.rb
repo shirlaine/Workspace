@@ -1,8 +1,9 @@
 def majority_element (nums) 
 
 
-#code to detect and print whether there are duplicates in array
-nums.detect { |e| nums.count(e) > nums.length/2 }
+#code to detect whether there are duplicates in array
+#more than half the length of array = maj element
+nums.detect{|i| nums.count(i)> nums.length/2}
 
 end
 

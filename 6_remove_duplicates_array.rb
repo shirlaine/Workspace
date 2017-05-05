@@ -1,10 +1,14 @@
-def remove_duplicates(arry)
 
-arry.uniq!
+def remove_duplicates(a)
 
-p arry
 
-return arry.length
+	a.uniq!
+
+	print a
+
+	new_array =a.length
+
+	puts " #{new_array} is the length of the new array"
 
 end
 
